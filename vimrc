@@ -1,4 +1,6 @@
 
+set t_Co=256
+
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
