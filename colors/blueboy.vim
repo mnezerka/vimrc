@@ -19,7 +19,7 @@ hi IncSearch	ctermfg=darkblue ctermbg=gray
 
 hi SpecialKey	ctermfg=darkcyan
 hi Directory	ctermfg=39
-hi Title		ctermfg=magenta cterm=bold
+hi Title		ctermfg=251 cterm=bold
 hi WarningMsg	ctermfg=red
 hi WildMenu		ctermfg=yellow ctermbg=black cterm=none term=none
 hi ModeMsg		ctermfg=lightblue

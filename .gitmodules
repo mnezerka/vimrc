@@ -13,3 +13,6 @@
 [submodule "bundle/xterm-color-table.vim"]
 	path = bundle/xterm-color-table.vim
 	url = http://github.com/guns/xterm-color-table.vim
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline
