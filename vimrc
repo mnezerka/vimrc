@@ -17,6 +17,9 @@ set nowrap
 set wildmenu
 set nohlsearch
 
+" Spilt diff windows vertically
+set diffopt+=vertical
+
 hi Folded ctermbg=None
 hi Folded guibg=#A0A0A0
 
