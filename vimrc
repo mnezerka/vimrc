@@ -16,6 +16,7 @@ set foldmethod=indent
 set nowrap
 set wildmenu
 set nohlsearch
+syntax on
 
 " Spilt diff windows vertically
 set diffopt+=vertical
