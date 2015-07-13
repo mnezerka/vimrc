@@ -78,3 +78,12 @@ function! SetGoOptions()
 "setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab makeprg=php-xdebug\ %
     :call tagbar#autoopen(0)
 endfunction
+
+" automatically open quick fix window after make
+autocmd QuickFixCmdPost * nested cwindow | redraw!
+
+" recompile coffe scipt after write
+autocmd BufWritePost *.coffee silent make!
+
+
+
