@@ -35,9 +35,9 @@ hi Folded	    ctermfg=darkgrey ctermbg=234
 hi FoldColumn	ctermfg=darkgrey ctermbg=black cterm=bold term=bold
 hi LineNr	    ctermfg=green cterm=none
 
-hi DiffAdd	    ctermbg=24 term=none cterm=none
-hi DiffChange	ctermbg=29 cterm=none
-hi DiffDelete	ctermfg=gray  ctermbg=52
+hi DiffAdd	    ctermfg=250 ctermbg=22 term=none cterm=none
+hi DiffChange	ctermbg=24 cterm=none
+hi DiffDelete	ctermfg=gray  ctermbg=88
 hi DiffText     ctermfg=250 cterm=bold ctermbg=238
 
 hi Cursor	    ctermfg=black ctermbg=yellow
