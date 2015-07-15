@@ -3,6 +3,7 @@ set t_Co=256
 
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
+execute pathogen#helptags()
 
 set tabstop=4
 set expandtab
@@ -79,5 +80,11 @@ autocmd QuickFixCmdPost * nested cwindow | redraw!
 " recompile coffe scipt after write
 autocmd BufWritePost *.coffee silent make!
 
-
+" buffergator stuff
+let g:buffergator_vsplit_size = 60
+let g:buffergator_autodismiss_on_select = 0
+let g:buffergator_viewport_split_policy = "R"
+let g:buffergator_display_regime = "basename"
+let g:buffergator_show_full_directory_path = 0
+let g:buffergator_autoupdate = 1
 
