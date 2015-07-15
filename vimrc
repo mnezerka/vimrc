@@ -78,7 +78,7 @@ endfunction
 autocmd QuickFixCmdPost * nested cwindow | redraw!
 
 " recompile coffe scipt after write
-autocmd BufWritePost *.coffee silent make!
+"autocmd BufWritePost *.coffee silent make!
 
 " buffergator stuff
 let g:buffergator_vsplit_size = 60
