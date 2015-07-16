@@ -35,10 +35,10 @@ hi Folded	    ctermfg=24 ctermbg=235
 hi FoldColumn	ctermfg=darkgrey ctermbg=black cterm=bold term=bold
 hi LineNr	    ctermfg=240
 
-hi DiffAdd	    ctermbg=24
-hi DiffChange	ctermbg=29
-hi DiffDelete	ctermfg=gray  ctermbg=52
-hi DiffText     ctermfg=227 cterm=bold ctermbg=238
+hi DiffAdd	    ctermfg=250 ctermbg=22 term=none cterm=none
+hi DiffChange	ctermbg=24 cterm=none
+hi DiffDelete	ctermfg=gray  ctermbg=88
+hi DiffText     ctermfg=227 ctermbg=238
 
 hi Cursor	    ctermfg=black ctermbg=yellow
 hi lCursor	    ctermfg=black ctermbg=white
