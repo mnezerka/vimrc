@@ -31,14 +31,14 @@ hi StatusLine	ctermfg=blue ctermbg=gray term=none cterm=none
 hi StatusLineNC	ctermfg=black ctermbg=gray term=none cterm=none
 hi VertSplit	ctermfg=black ctermbg=gray term=none cterm=none
 
-hi Folded	    ctermfg=darkgrey ctermbg=234
+hi Folded	    ctermfg=24 ctermbg=235
 hi FoldColumn	ctermfg=darkgrey ctermbg=black cterm=bold term=bold
-hi LineNr	    ctermfg=green cterm=none
+hi LineNr	    ctermfg=240
 
-hi DiffAdd	    ctermbg=24 term=none cterm=none
-hi DiffChange	ctermbg=29 cterm=none
+hi DiffAdd	    ctermbg=24
+hi DiffChange	ctermbg=29
 hi DiffDelete	ctermfg=gray  ctermbg=52
-hi DiffText     ctermfg=250 cterm=bold ctermbg=238
+hi DiffText     ctermfg=227 cterm=bold ctermbg=238
 
 hi Cursor	    ctermfg=black ctermbg=yellow
 hi lCursor	    ctermfg=black ctermbg=white

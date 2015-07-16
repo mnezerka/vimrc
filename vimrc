@@ -5,6 +5,15 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 execute pathogen#helptags()
 
+" Set 'nocompatible' to ward off unexpected things that your distro might
+" have made, as well as sanely reset options when re-sourcing .vimrc
+set nocompatible
+  
+" Attempt to determine the type of a file based on its name and possibly its
+" contents. Use this to allow intelligent auto-indenting for each filetype,
+" and for plugins that are filetype specific.
+filetype indent plugin on
+
 set tabstop=4
 set expandtab
 set shiftwidth=4
@@ -17,13 +26,16 @@ set foldmethod=indent
 set nowrap
 set wildmenu
 set nohlsearch
+set number
+
+" Instead of failing a command because of unsaved changes, instead raise a
+" " dialogue asking if you wish to save changed files.
+set confirm
+
 syntax on
 
 " Spilt diff windows vertically
 set diffopt+=vertical
-
-hi Folded ctermbg=None
-hi Folded guibg=#A0A0A0
 
 " NERDTree stuff
 map <F12> :NERDTreeToggle<CR>
