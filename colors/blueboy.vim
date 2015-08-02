@@ -9,7 +9,7 @@ endif
 
 let colors_name = "blueboy"
 
-hi Normal		ctermfg=246 ctermbg=black
+hi Normal		ctermfg=246 ctermbg=235
 hi ErrorMsg		ctermfg=white ctermbg=lightblue
 hi Visual		ctermfg=lightblue ctermbg=fg cterm=reverse
 hi VisualNOS	ctermfg=lightblue ctermbg=fg cterm=reverse,underline
@@ -54,4 +54,4 @@ hi type	    	ctermfg=28 cterm=none
 hi Underlined	cterm=underline term=underline
 hi Ignore   	ctermfg=bg
 
-
+hi VertSplit    ctermfg=25 ctermbg=none
