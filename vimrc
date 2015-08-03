@@ -39,6 +39,7 @@ set diffopt+=vertical
 
 " NERDTree stuff
 map <F12> :NERDTreeToggle<CR>
+let g:NERDTreeWinSize=40
 
 :nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 :nnoremap <leader>sv :source $MYVIMRC<cr>
@@ -94,6 +95,7 @@ autocmd BufWritePost *.coffee silent make!
 
 " buffergator stuff
 let g:buffergator_vsplit_size = 60
+let g:buffergator_split_size = 8
 let g:buffergator_autodismiss_on_select = 0
 let g:buffergator_viewport_split_policy = "B"
 let g:buffergator_display_regime = "basename"

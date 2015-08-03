@@ -9,7 +9,8 @@ endif
 
 let colors_name = "blueboy"
 
-hi Normal		ctermfg=246 ctermbg=235
+"hi Normal		ctermfg=246 ctermbg=235
+hi Normal		ctermfg=246 ctermbg=none
 hi ErrorMsg		ctermfg=white ctermbg=lightblue
 hi Visual		ctermfg=lightblue ctermbg=fg cterm=reverse
 hi VisualNOS	ctermfg=lightblue ctermbg=fg cterm=reverse,underline
@@ -31,7 +32,7 @@ hi StatusLine	ctermfg=blue ctermbg=gray term=none cterm=none
 hi StatusLineNC	ctermfg=black ctermbg=gray term=none cterm=none
 hi VertSplit	ctermfg=black ctermbg=gray term=none cterm=none
 
-hi Folded	    ctermfg=24 ctermbg=235
+hi Folded	    ctermfg=39 ctermbg=none
 hi FoldColumn	ctermfg=darkgrey ctermbg=black cterm=bold term=bold
 hi LineNr	    ctermfg=240
 
@@ -52,6 +53,6 @@ hi Statement	ctermfg=221 cterm=none
 hi PreProc  	ctermfg=42 cterm=none
 hi type	    	ctermfg=28 cterm=none
 hi Underlined	cterm=underline term=underline
-hi Ignore   	ctermfg=bg
+hi Ignore   	ctermfg=yellow ctermbg=none
 
 hi VertSplit    ctermfg=25 ctermbg=none
