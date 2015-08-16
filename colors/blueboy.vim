@@ -14,7 +14,7 @@ hi Normal		ctermfg=246 ctermbg=none
 hi ErrorMsg		ctermfg=white ctermbg=lightblue
 hi Visual		ctermfg=lightblue ctermbg=fg cterm=reverse
 hi VisualNOS	ctermfg=lightblue ctermbg=fg cterm=reverse,underline
-hi Todo			ctermfg=226 ctermbg=224
+hi Todo			ctermfg=226 ctermbg=none
 hi Search		ctermfg=white ctermbg=darkblue cterm=underline term=underline
 hi IncSearch	ctermfg=darkblue ctermbg=gray
 
@@ -32,7 +32,7 @@ hi StatusLine	ctermfg=blue ctermbg=gray term=none cterm=none
 hi StatusLineNC	ctermfg=black ctermbg=gray term=none cterm=none
 hi VertSplit	ctermfg=black ctermbg=gray term=none cterm=none
 
-hi Folded	    ctermfg=39 ctermbg=none
+hi Folded	    ctermfg=94 ctermbg=none
 hi FoldColumn	ctermfg=darkgrey ctermbg=black cterm=bold term=bold
 hi LineNr	    ctermfg=240
 
