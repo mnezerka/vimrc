@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer: michal.nezerka@gmail.com	
 
-set bg=dark
+"set bg=dark
 hi clear
 if exists("syntax_on")
 	syntax reset
