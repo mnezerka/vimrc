@@ -102,3 +102,8 @@ let g:buffergator_display_regime = "basename"
 let g:buffergator_show_full_directory_path = 0
 let g:buffergator_autoupdate = 1
 
+
+" Show syntax highlighting group under cursor
+map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>

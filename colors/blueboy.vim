@@ -46,12 +46,12 @@ hi lCursor	    ctermfg=black ctermbg=white
 
 
 hi Comment      ctermfg=24
-hi Constant     ctermfg=166 cterm=none
+hi Constant     ctermfg=208 cterm=none
 hi Special      ctermfg=brown cterm=none
 hi Identifier	ctermfg=39  cterm=none
 hi Statement	ctermfg=221 cterm=none 
 hi PreProc  	ctermfg=42 cterm=none
-hi type	    	ctermfg=28 cterm=none
+hi type	    	ctermfg=41 cterm=none
 hi Underlined	cterm=underline term=underline
 hi Ignore   	ctermfg=yellow ctermbg=none
 
