@@ -9,8 +9,7 @@ endif
 
 let colors_name = "blueboy"
 
-"hi Normal		ctermfg=246 ctermbg=235
-hi Normal		ctermfg=246 ctermbg=none
+hi Normal		guifg=#e0e0e0 guibg=#333333 ctermfg=246 ctermbg=none
 hi ErrorMsg		ctermfg=white ctermbg=lightblue
 hi Visual		ctermfg=lightblue ctermbg=fg cterm=reverse
 hi VisualNOS	ctermfg=lightblue ctermbg=fg cterm=reverse,underline
@@ -45,8 +44,8 @@ hi Cursor	    ctermfg=black ctermbg=yellow
 hi lCursor	    ctermfg=black ctermbg=white
 
 
-hi Comment      ctermfg=24
-hi Constant     ctermfg=208 cterm=none
+hi Comment      guifg=#ffe066 ctermfg=24
+hi Constant     guifg=#ffe066 ctermfg=208 cterm=none
 hi Special      ctermfg=brown cterm=none
 hi Identifier	ctermfg=39  cterm=none
 hi Statement	ctermfg=221 cterm=none 
