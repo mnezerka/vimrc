@@ -43,13 +43,12 @@ hi DiffText     ctermfg=227 ctermbg=238 cterm=none
 hi Cursor	    ctermfg=black ctermbg=yellow
 hi lCursor	    ctermfg=black ctermbg=white
 
-
 hi Comment      guifg=#ffe066 ctermfg=24
-hi Constant     guifg=#ffe066 ctermfg=208 cterm=none
+hi Constant     guifg=#ffe066 ctermfg=35 cterm=none
 hi Special      ctermfg=brown cterm=none
 hi Identifier	ctermfg=39  cterm=none
 hi Statement	ctermfg=221 cterm=none 
-hi PreProc  	ctermfg=42 cterm=none
+hi PreProc  	ctermfg=207 cterm=none
 hi type	    	ctermfg=41 cterm=none
 hi Underlined	cterm=underline term=underline
 hi Ignore   	ctermfg=yellow ctermbg=none
