@@ -13,6 +13,7 @@ set nocompatible
 " contents. Use this to allow intelligent auto-indenting for each filetype,
 " and for plugins that are filetype specific.
 filetype indent plugin on
+let g:omni_sql_no_default_maps = 1
 
 set tabstop=4
 set expandtab
