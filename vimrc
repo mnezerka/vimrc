@@ -29,6 +29,9 @@ set wildmenu
 set nohlsearch
 set number
 
+set listchars=trail:@,tab:>-
+set list
+
 if has('gui_running')
   set guioptions-=T  " no toolbar
 endif
@@ -97,22 +100,9 @@ endfunction
 " automatically open quick fix window after make
 autocmd QuickFixCmdPost * nested cwindow | redraw!
 
-" recompile coffe scipt after write
-"autocmd BufWritePost *.coffee silent make!
-
-" buffergator stuff
-let g:buffergator_vsplit_size = 60
-let g:buffergator_split_size = 8
-let g:buffergator_autodismiss_on_select = 0
-let g:buffergator_viewport_split_policy = "B"
-let g:buffergator_display_regime = "basename"
-let g:buffergator_show_full_directory_path = 0
-let g:buffergator_autoupdate = 1
-
-
 " Show syntax highlighting group under cursor
 map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
 \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
 \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 
-set wildignore+=*/tmp/*,*/node_modules/*,*/vendor/*,*.so,*.swp,*.zip,*pyc
+set wildignore+=*/.git/*,*/tmp/*,*/node_modules/*,*/vendor/*,*.so,*.swp,*.zip,*pyc
