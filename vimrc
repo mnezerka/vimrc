@@ -30,7 +30,7 @@ set nohlsearch
 set number
 
 " switch spell checker on
-set spell spelllang=en_us
+" set spell spelllang=en_us
 
 set listchars=trail:@,tab:>-
 set list
@@ -46,7 +46,7 @@ set confirm
 syntax on
 
 " Spilt diff windows vertically
-set diffopt+=vertical
+" set diffopt+=vertical
 
 " NERDTree stuff
 map <F12> :NERDTreeToggle<CR>
