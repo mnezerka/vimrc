@@ -55,7 +55,8 @@ let g:NERDTreeWinSize=40
 :nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 :nnoremap <leader>sv :source $MYVIMRC<cr>
 
-color blueboy
+" color blueboy
+colorscheme solarized
 
 " Syntastic
 let g:syntastic_always_populate_loc_list = 1
